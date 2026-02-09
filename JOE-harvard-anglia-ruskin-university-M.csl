@@ -119,9 +119,7 @@
               <else-if variable="medium">
                 <text variable="medium" prefix="[" suffix="]"/>
               </else-if>
-              <else>
-                <text term="online" prefix="[" suffix="]"/>
-              </else>
+              <else/>
             </choose>
           </if>
           <else-if type="thesis">
